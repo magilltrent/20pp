@@ -1,0 +1,17 @@
+{
+  "name": "20pp-discord-bot",
+  "version": "1.0.0",
+  "main": "20pp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}
