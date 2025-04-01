@@ -6,6 +6,8 @@ const discordToken = process.env.DISCORD_TOKEN;
 const awsKey = process.env.AWS_ACCESS_KEY_ID;
 const awsSecret = process.env.AWS_SECRET_ACCESS_KEY;
 
+console.log(awsKey)
+
 AWS.config.update({
     region: 'us-east-1',
     accessKeyId: awsKey,
